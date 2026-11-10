@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Michael Sánchez · Páginas web para negocios en Neiva</title>
+<meta name="description" content="Páginas web, menús digitales con QR y mantenimiento de sitios para negocios de Neiva y de toda Colombia. Entrega en 3 a 5 días.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0f1720; --bg2:#16212d; --card:#1b2836; --line:#2a3a4c;
+  --text:#e9eef4; --muted:#9fb0c2; --accent:#ffb547; --accent2:#2bd4a4; --wa:#25d366;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;font-size:16px}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:10;background:rgba(15,23,32,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-family:Sora,sans-serif;font-weight:700;letter-spacing:.2px}
+.logo span{color:var(--accent)}
+nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-size:14px}
+nav a:hover{color:var(--text)}
+.hero{padding:72px 0 56px}
+.tag{display:inline-block;font-size:13px;color:var(--accent2);border:1px solid rgba(43,212,164,.35);border-radius:999px;padding:4px 12px;margin-bottom:18px}
+h1{font-family:Sora,sans-serif;font-size:clamp(30px,5.2vw,52px);line-height:1.12;max-width:780px}
+h1 em{font-style:normal;color:var(--accent)}
+.lead{color:var(--muted);font-size:18px;max-width:640px;margin:18px 0 28px}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--wa);color:#06260f;font-weight:600;text-decoration:none;padding:13px 22px;border-radius:12px;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn.ghost{background:transparent;color:var(--text);border:1px solid var(--line);margin-left:10px}
+.trust{display:flex;flex-wrap:wrap;gap:22px;margin-top:34px;color:var(--muted);font-size:14px}
+.trust b{color:var(--text);font-size:20px;display:block;font-family:Sora,sans-serif}
+section{padding:56px 0;border-top:1px solid var(--line)}
+h2{font-family:Sora,sans-serif;font-size:28px;margin-bottom:8px}
+.sub{color:var(--muted);margin-bottom:30px}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px;display:flex;flex-direction:column}
+.card h3{font-family:Sora,sans-serif;font-size:19px;margin-bottom:6px}
+.price{font-family:Sora,sans-serif;font-size:30px;color:var(--accent);margin:10px 0 2px}
+.price small{font-size:14px;color:var(--muted);font-family:Inter,sans-serif}
+.card ul{list-style:none;margin:14px 0 20px;color:var(--muted);font-size:15px}
+.card li{padding:5px 0 5px 24px;position:relative}
+.card li::before{content:"✓";position:absolute;left:0;color:var(--accent2);font-weight:700}
+.card .btn{margin-top:auto;justify-content:center}
+.card.pop{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset}
+.badge{align-self:flex-start;font-size:12px;background:var(--accent);color:#2a1a00;font-weight:600;border-radius:999px;padding:2px 10px;margin-bottom:10px}
+.work{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.work .card p{color:var(--muted);font-size:15px}
+.work .card a.link{color:var(--accent2);font-weight:600;text-decoration:none;margin-top:12px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.chips span{font-size:12px;background:var(--bg2);border:1px solid var(--line);border-radius:6px;padding:2px 8px;color:var(--muted)}
+.steps{counter-reset:s;display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+.step{background:var(--bg2);border-radius:14px;padding:20px}
+.step::before{counter-increment:s;content:counter(s);display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--accent);color:#2a1a00;font-weight:700;margin-bottom:10px}
+.step p{color:var(--muted);font-size:15px}
+.note{color:var(--muted);font-size:14px;margin-top:18px}
+.cta{text-align:center;padding:64px 0}
+.cta h2{font-size:32px}
+footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-size:14px;text-align:center}
+.float{position:fixed;right:18px;bottom:18px;width:58px;height:58px;border-radius:50%;background:var(--wa);display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.35);z-index:20}
+@media (max-width:640px){nav{display:none}.btn.ghost{margin:10px 0 0}.hero{padding:48px 0 40px}}
+</style>
+</head>
+<body>
+
+<header><div class="wrap">
+  <div class="logo">Michael<span>.</span>dev</div>
+  <nav><a href="#planes">Planes</a><a href="#trabajos">Trabajos</a><a href="#proceso">Cómo trabajo</a><a href="#contacto">Contacto</a></nav>
+</div></header>
+
+<main>
+<div class="wrap hero">
+  <span class="tag">Desarrollador web · Neiva, Huila</span>
+  <h1>Que tus clientes te <em>encuentren en Google</em> y te escriban por WhatsApp.</h1>
+  <p class="lead">Hago páginas web y menús digitales para negocios de Neiva y de toda Colombia: rápidas, bonitas en el celular y listas en 3 a 5 días.</p>
+  <a class="btn" href="https://wa.me/573052559098?text=Hola%20Michael%2C%20quiero%20informaci%C3%B3n%20sobre%20una%20p%C3%A1gina%20web" target="_blank" rel="noopener">💬 Escríbeme por WhatsApp</a>
+  <a class="btn ghost" href="#planes">Ver precios</a>
+  <div class="trust">
+    <div><b>7 meses</b>programador web en agencia</div>
+    <div><b>3-5 días</b>tiempo de entrega</div>
+    <div><b>50 / 50</b>pagas la mitad al iniciar</div>
+  </div>
+</div>
+
+<section id="planes"><div class="wrap">
+  <h2>Planes</h2>
+  <p class="sub">Precios claros, sin sorpresas. El dominio y el hosting quedan a tu nombre.</p>
+  <div class="grid">
+    <div class="card">
+      <h3>Menú o catálogo digital</h3>
+      <div class="price">$200.000</div>
+      <ul><li>Tu menú o productos con fotos y precios</li><li>Código QR para las mesas o el mostrador</li><li>Pedido directo por WhatsApp</li><li>Fácil de actualizar</li></ul>
+      <a class="btn" href="https://wa.me/573052559098?text=Hola%2C%20me%20interesa%20el%20men%C3%BA%20digital" target="_blank" rel="noopener">Lo quiero</a>
+    </div>
+    <div class="card pop">
+      <span class="badge">El más pedido</span>
+      <h3>Página básica</h3>
+      <div class="price">$350.000</div>
+      <ul><li>Una página con tus servicios y fotos</li><li>Ubicación en Google Maps y horarios</li><li>Botón de WhatsApp y redes sociales</li><li>Perfecta en celular</li><li>Lista en 3 días</li></ul>
+      <a class="btn" href="https://wa.me/573052559098?text=Hola%2C%20me%20interesa%20la%20p%C3%A1gina%20b%C3%A1sica" target="_blank" rel="noopener">La quiero</a>
+    </div>
+    <div class="card">
+      <h3>Página completa</h3>
+      <div class="price">$700.000 <small>en adelante</small></div>
+      <ul><li>4 a 5 secciones (inicio, servicios, galería, nosotros, contacto)</li><li>Formulario de contacto</li><li>Optimización básica para Google</li><li>2 rondas de cambios</li></ul>
+      <a class="btn" href="https://wa.me/573052559098?text=Hola%2C%20me%20interesa%20la%20p%C3%A1gina%20completa" target="_blank" rel="noopener">Cotizar</a>
+    </div>
+    <div class="card">
+      <h3>Arreglos y mantenimiento</h3>
+      <div class="price">$100.000 <small>arreglo · $80.000/mes</small></div>
+      <ul><li>Tu página no carga o se ve mal en celular</li><li>Cambios de textos, fotos y precios</li><li>Copias de seguridad y actualizaciones</li></ul>
+      <a class="btn" href="https://wa.me/573052559098?text=Hola%2C%20necesito%20arreglar%20mi%20p%C3%A1gina" target="_blank" rel="noopener">Pedir arreglo</a>
+    </div>
+  </div>
+  <p class="note">Dominio (tunegocio.com) y hosting: aprox. $150.000 a $250.000 al año, pagados directamente por ti al proveedor.</p>
+</div></section>
+
+<section id="trabajos"><div class="wrap">
+  <h2>Trabajos</h2>
+  <p class="sub">Proyectos reales en producción.</p>
+  <div class="work">
+    <div class="card">
+      <h3>AlertaMujer</h3>
+      <p>Sistema de seguridad personal para mujeres: web, app móvil y servidor. Fui desarrollador principal del backend, con microservicios, alertas en tiempo real y panel de administración.</p>
+      <div class="chips"><span>Java</span><span>Spring Boot</span><span>PostgreSQL</span><span>Angular</span><span>React Native</span></div>
+      <a class="link" href="https://alerta-mujer.vercel.app" target="_blank" rel="noopener">Ver proyecto →</a>
+    </div>
+    <div class="card">
+      <h3>Sitios web para clientes de agencia</h3>
+      <p>Durante 7 meses en Agencias de Medios del Sur (Neiva) desarrollé y mantuve sitios web para clientes: desde el diseño hasta la publicación, incluido un sitio profesional completo para una clienta.</p>
+      <div class="chips"><span>WordPress</span><span>PHP</span><span>JavaScript</span><span>HTML / CSS</span><span>MySQL</span></div>
+    </div>
+  </div>
+</div></section>
+
+<section id="proceso"><div class="wrap">
+  <h2>Cómo trabajo</h2>
+  <p class="sub">Simple y por WhatsApp.</p>
+  <div class="steps">
+    <div class="step"><h3>Hablamos</h3><p>Me cuentas de tu negocio y te hago un boceto gratis de la portada.</p></div>
+    <div class="step"><h3>Anticipo</h3><p>Si te gusta, pagas el 50 % y empiezo ese mismo día.</p></div>
+    <div class="step"><h3>Revisas</h3><p>Te muestro el avance y hacemos los cambios que necesites.</p></div>
+    <div class="step"><h3>Publicamos</h3><p>Pagas el otro 50 % y tu página queda en línea a tu nombre.</p></div>
+  </div>
+</div></section>
+
+<section class="cta" id="contacto"><div class="wrap">
+  <h2>¿Hablamos de tu página?</h2>
+  <p class="sub">Te respondo el mismo día.</p>
+  <a class="btn" href="https://wa.me/573052559098?text=Hola%20Michael%2C%20quiero%20informaci%C3%B3n%20sobre%20una%20p%C3%A1gina%20web" target="_blank" rel="noopener">💬 WhatsApp 305 255 9098</a>
+  <p class="note">samaicol777@gmail.com · <a href="https://github.com/menticio" target="_blank" rel="noopener">github.com/menticio</a> · <a href="https://www.linkedin.com/in/michael-sanchez-castaneda" target="_blank" rel="noopener">LinkedIn</a></p>
+</div></section>
+</main>
+
+<footer>© 2026 Michael Sánchez Castañeda · Desarrollador web en Neiva, Huila</footer>
+
+<a class="float" href="https://wa.me/573052559098" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg>
+</a>
+</body>
+</html>
